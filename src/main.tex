@@ -1,0 +1,144 @@
+\documentclass[a4paper,11pt,onecolumn,twoside]{article}
+% 编译方式：xelatex三次编译
+\usepackage{ctex}
+\usepackage{fancyhdr}
+\usepackage{amsmath,amsfonts,amssymb,graphicx}
+\usepackage{subfigure}
+\usepackage{indentfirst}
+\usepackage{bm}
+\usepackage{multicol}
+\usepackage{indentfirst}
+% \usepackage{picins}
+\usepackage{abstract}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{stfloats}
+\usepackage{mdframed}
+\usepackage{amsmath}
+\usepackage{authblk}
+\usepackage{epstopdf}
+\usepackage{hyperref}
+\usepackage{paralist}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor=black,
+}
+
+\addtolength{\topmargin}{-54pt}
+\setlength{\oddsidemargin}{-0.9cm}
+\setlength{\evensidemargin}{\oddsidemargin}
+\setlength{\textwidth}{17.00cm}
+\setlength{\textheight}{24.00cm}
+
+\newcounter{TempEqCnt}
+\renewcommand{\baselinestretch}{1.1}
+\parindent 22pt
+
+\begin{document}
+\title{\huge{直肠癌新外科方法}}
+
+\author[]{赵子毅}{}
+\author[]{曾树新}{}
+\author[]{王美璇}{}
+\author[]{陈春霖}{}
+\author[]{李易霖}{}
+\author[]{季树宇}{}
+
+\affil[]{深圳大学医学部临床医学专业}
+\affil[]{\textit {\{20182221138, 20182221138, 20182221138, 20182221138, 20182221138, 2018221138\}@email.szu.edu.cn}}
+
+\renewcommand\Authands{ and }
+
+
+\date{}
+
+
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \rhead{\thepage}
+    \chead{\centering{局部解剖学期末论文\\
+            \scriptsize{\textbf{Local anatomy}}}}
+    \lhead{Jan, 2021}
+    \lfoot{}
+    \cfoot{}
+    \rfoot{}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\headheight 26.70523pt
+\fancyhead[LE,LO]{Jan, 2021}
+\fancyhead[CE,CO]{局部解剖学期末论文}
+\fancyhead[RE,RO]{\thepage}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+
+\newenvironment{figurehere}
+{\def\@captype{figure}}
+{}
+\makeatother
+
+\maketitle
+
+\newcommand{\supercite}[1]{\textsuperscript{\cite{#1}}}
+
+
+\setlength{\oddsidemargin}{1cm}  % 3.17cm - 1 inch
+\setlength{\evensidemargin}{\oddsidemargin}
+\setlength{\textwidth}{13.50cm}
+\vspace{-.8cm}
+\begin{center}
+    \parbox{\textwidth}{
+        \textbf{摘~~~要} \quad  直肠癌
+        \\
+        \textbf{关键词} \quad 直肠癌，医学}
+\end{center}
+
+\vspace{.1cm}
+\begin{center}
+    \parbox{\textwidth}{
+    \begin{center}
+        {\large{\textbf{Overview of the application of machine learning in clinical medicine}}}\\[4pt]
+        \vspace{-0.5cm}\end{center}
+    \begin{center}
+        \textbf{Zhao Ziyi}\\[2pt]
+        \small{\textit{(Health Science Center of Shenzhen University)}}\\[2pt]
+    \end{center}
+    {\small{\textbf{Abstract}\quad 直肠癌
+        \\
+        \textbf{Key Words}\quad 直肠癌, Medicine}}
+    }
+\end{center}
+
+\setlength{\oddsidemargin}{-.5cm}
+\setlength{\evensidemargin}{\oddsidemargin}
+\setlength{\textwidth}{17.00cm}
+
+\vspace{0.2cm}
+\begin{multicols}{2}
+
+    \section{前言与介绍}
+    \section{传统手术方法}
+    \section{新手术方法}
+    \section{新方法优势与比较}
+    \section{总结}
+
+    \small
+    \begin{thebibliography}{14}
+        \setlength{\parskip}{0pt}  %段落之间的竖直距离
+        %%% BIBTEX
+    \end{thebibliography}
+    \normalsize
+
+\end{multicols}
+
+
+\clearpage
+
+\end{document}

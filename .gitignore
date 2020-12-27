@@ -1,0 +1,8 @@
+__latexindent_temp.tex
+tmp
+src/*.pdf
+*.zh-CN.pdf
+*.log
+~*
+*.svg
+*.dio
